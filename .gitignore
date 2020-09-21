@@ -1,39 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudio,opencv,c++,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,opencv,c++,windows
 
-### C++ ###
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudio,opencv
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudio,opencv
 
 ### OpenCV ###
 #OpenCV for Mac and Linux
@@ -143,7 +110,9 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
+*.obj
 *.iobj
+*.pch
 *.pdb
 *.ipdb
 *.pgc
@@ -423,4 +392,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio,opencv,c++,windows
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,opencv
